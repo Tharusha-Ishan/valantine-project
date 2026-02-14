@@ -8,9 +8,14 @@ import FloatingHearts from './animations/FloatingHearts';
 import CursorEffect from './components/CursorEffect';
 import EasterEgg from './components/EasterEgg';
 
+import ValentineIntro from './components/ValentineIntro';
+
 function App() {
   return (
     <div className="min-h-screen bg-brand-dark text-white font-sans overflow-x-hidden relative selection:bg-brand-pink selection:text-white">
+      {/* Intro Overlay */}
+      <ValentineIntro />
+
       {/* Dynamic Background with animated gradient */}
       <div className="fixed inset-0 bg-gradient-to-br from-black via-purple-900/40 to-black z-0 pointer-events-none animate-gradient-x"></div>
 

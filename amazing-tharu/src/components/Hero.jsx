@@ -20,10 +20,10 @@ const Hero = () => {
                 className="mb-6"
             >
                 <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-purple-500 to-pink-500 animate-gradient-x">
-                    Just For You 💫
+                    Happy Valentine's Day 💖
                 </h1>
                 <h2 className="text-2xl md:text-4xl text-gray-300 font-light">
-                    From <span className="text-pink-400 font-semibold">Tharu</span> 🌹
+                    Just for You, From <span className="text-pink-400 font-semibold">Tharu</span> 🌹
                 </h2>
             </motion.div>
 
