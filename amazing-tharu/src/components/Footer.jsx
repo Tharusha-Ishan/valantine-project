@@ -11,7 +11,7 @@ const Footer = () => {
                 <p>
                     Made with <span className="text-red-500 animate-pulse inline-block">❤️</span> by Tharu
                 </p>
-                <p className="mt-2 text-xs opacity-50">&copy; {new Date().getFullYear()} Amazing Tharu. All rights reserved.</p>
+                <p className="mt-2 text-xs opacity-50">&copy; {new Date().getFullYear()} Tharusha Ishan. All rights reserved.</p>
             </motion.div>
         </footer>
     );
